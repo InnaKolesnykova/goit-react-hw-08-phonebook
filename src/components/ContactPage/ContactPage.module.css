@@ -1,0 +1,16 @@
+.box {
+    display: flex;
+    gap: 20px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}

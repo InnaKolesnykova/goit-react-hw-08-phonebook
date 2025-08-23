@@ -1,0 +1,21 @@
+.contBox {
+    display: flex;
+    justify-content: center;
+}
+
+.none {
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 16px;
+}
+
+.heading {
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 18px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
