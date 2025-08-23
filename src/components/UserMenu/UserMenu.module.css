@@ -1,0 +1,38 @@
+.userDiv {
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    margin-left: 36px;
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+
+    transition: fill 350ms ease-in-out;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+}
+
+
+.btn:hover .icon {
+    transform: translateY(-2px);
+    fill: var(--active);
+    cursor: pointer;
+}
+
+
+.btn:focus {
+    transform: translateY(0px);
+}
