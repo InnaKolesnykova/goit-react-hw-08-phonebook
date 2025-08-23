@@ -1,0 +1,98 @@
+.form {
+    border: none;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.btn {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-family: "Montserrat",
+        sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 0px;
+    border-radius: 3px;
+    box-shadow: 0 3px 14px rgba(50, 50, 93, 0.1);
+    transition: all 0.1s linear;
+    font-size: 12px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.btn:hover,
+.btn:hover {
+    background-color: var(--red-primary);
+}
+
+.btn {
+    color: white;
+    background-color: var(--idle);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    background: var(--active);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn:active {
+    transform: translateY(0px);
+    background: var(--idle);
+}
+
+.btn:focus {
+    transform: translateY(0px);
+    background: var(--idle);
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--black-primary);
+    height: 36px;
+    margin-bottom: 12px;
+}
+
+.h1 {
+    font-family: "Montserrat",
+        sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.form:first-child {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.input::placeholder {
+    font-family: "Montserrat",
+        sans-serif;
+}
+
+.opportunity {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat",
+        sans-serif;
+    font-size: 16px;
+}
+
+.link {
+    margin-left: 4px;
+    color: var(--black-primary);
+    transition: color 350ms ease-in-out;
+}
+
+.link:hover {
+    color: var(--active);
+}
