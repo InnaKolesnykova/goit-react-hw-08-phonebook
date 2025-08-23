@@ -1,0 +1,16 @@
+form,
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border: 2px solid black;
+    padding: 28px;
+    border-radius: 8px;
+}
+
+.btn {
+    width: fit-content;
+    margin-top: 8px;
+}

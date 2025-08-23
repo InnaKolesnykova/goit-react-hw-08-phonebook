@@ -1,0 +1,15 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0px;
+    padding: 0;
+}
+
+.mainBox {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
