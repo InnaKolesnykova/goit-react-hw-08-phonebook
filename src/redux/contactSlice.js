@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const baseUrl = 'https://connections-api.herokuapp.com/contacts';
+const baseUrl = 'https://connections-api.goit.global/contacts';
 const tokenSelector = (state) => state.auth.token;
 
 export const fetchContacts = createAsyncThunk(

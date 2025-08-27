@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'https://connections-api.herokuapp.com';
+const apiUrl = 'https://connections-api.goit.global';
 
 export const getCurrentUserAPI = async (token) => {
   const response = await axios.get(`${apiUrl}/users/current`, {

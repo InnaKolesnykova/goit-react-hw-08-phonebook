@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { getCurrentUserAPI } from './authAPI';
 import axios from 'axios';
 
-const API_URL = 'https://connections-api.herokuapp.com';
+const API_URL = 'https://connections-api.goit.global';
 
 const setTokenInLocalStorage = (token) => {
   localStorage.setItem('token', token);
