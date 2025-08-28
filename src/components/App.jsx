@@ -6,7 +6,7 @@ import { Layout } from './Layout/Layout';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import RestrictedRoute from './RestrictedRoute/RestrictedRoute';
 import { Loader } from './Loader/Loader';
-import { getCurrentUser } from '../redux/authSlice'; // ⚡ твоя санка
+import { getCurrentUser } from '../redux/authSlice'; 
 
 const HomePage = lazy(() => import('../components/Home/Home'));
 const RegisterPage = lazy(() => import('../components/RegisterPage/RegisterPage'));
@@ -17,7 +17,7 @@ export const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getCurrentUser()); // ⚡ тільки тут
+    dispatch(getCurrentUser()); 
   }, [dispatch]);
 
   return (
